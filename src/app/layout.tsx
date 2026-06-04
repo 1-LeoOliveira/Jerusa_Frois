@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   title: "Jerusa Frois — Psicóloga Clínica",
   description:
     "Atendimento psicológico para adolescentes, adultos e empresas. Online e presencial em Betim/MG. CRP 04/68220.",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({
