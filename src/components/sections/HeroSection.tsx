@@ -79,7 +79,7 @@ export default function HeroSection() {
               <div className="absolute -inset-4 bg-gradient-to-br from-sage-muted/30 to-nude/50 rounded-[2rem] blur-2xl" />
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://019e64ef-0cb7-7e67-a915-216a90413591.mochausercontent.com/Jerusa.jpg"
+                src="/Jerusa.jpg"
                 alt="Jerusa Frois - Psicóloga"
                 className="relative w-full max-w-md lg:max-w-lg rounded-[2rem] object-cover shadow-2xl"
               />

@@ -1,10 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 
-const faqs = [
+const WHATSAPP_LINK =
+  "https://wa.me/5531998403394?text=Olá! Gostaria de agendar uma consulta.";
+
+const faqs: { question: string; answer: React.ReactNode }[] = [
   {
     question: "Como funciona a terapia?",
     answer:
@@ -29,6 +32,30 @@ const faqs = [
     question: "Como agendar uma consulta?",
     answer:
       "Você pode entrar em contato pelo WhatsApp para agendar sua primeira sessão. Respondo rapidamente e podemos encontrar o melhor horário para você.",
+  },
+  {
+    question: "Como funciona o reembolso?",
+    answer:
+      "Após cada sessão, disponibilizo o recibo para solicitação de reembolso junto ao convênio. As regras e valores reembolsados variam conforme o plano contratado.",
+  },
+  {
+    question: "Qual o valor da consulta?",
+    answer: (
+      <>
+        O Conselho Regional de Psicologia (CRP) não permite a divulgação de
+        preços como forma de promoção profissional. Para saber mais sobre
+        valores e disponibilidade de horários, entre em contato pelo WhatsApp{" "}
+        <a
+          href={WHATSAPP_LINK}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-soft-brown underline hover:text-soft-brown/80 transition-colors"
+        >
+          clicando aqui
+        </a>
+        . Ficarei feliz em atendê-lo(a).
+      </>
+    ),
   },
 ];
 

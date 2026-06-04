@@ -24,7 +24,7 @@ export default function HowCanIHelpSection() {
               <div className="h-56 lg:h-64">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://019e64ef-0cb7-7e67-a915-216a90413591.mochausercontent.com/consultorio.jpeg"
+                  src="/consultorio.jpeg"
                   alt="Consultório - Atendimento Presencial"
                   className="w-full h-full object-cover"
                 />
@@ -77,7 +77,7 @@ export default function HowCanIHelpSection() {
               <div className="h-56 lg:h-64">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://019e64ef-0cb7-7e67-a915-216a90413591.mochausercontent.com/palestra-corporativa.jpg"
+                  src="/palestra-corporativa.jpg"
                   alt="Palestra Corporativa"
                   className="w-full h-full object-cover"
                 />

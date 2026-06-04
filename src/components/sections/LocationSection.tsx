@@ -33,7 +33,7 @@ export default function LocationSection() {
               <div className="rounded-xl overflow-hidden mb-6">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://019e64ef-0cb7-7e67-a915-216a90413591.mochausercontent.com/consultorio.jpeg"
+                  src="/consultorio.jpeg"
                   alt="Consultório - ambiente acolhedor"
                   className="w-full h-48 object-cover"
                 />

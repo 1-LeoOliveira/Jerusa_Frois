@@ -65,10 +65,10 @@ export default function CorporateSection() {
                 <video
                   className="w-full max-h-[500px] object-contain mx-auto"
                   controls
-                  poster="https://019e64ef-0cb7-7e67-a915-216a90413591.mochausercontent.com/palestra-corporativa.jpg"
+                  poster="/palestra-corporativa.jpg"
                 >
                   <source
-                    src="https://019e64ef-0cb7-7e67-a915-216a90413591.mochausercontent.com/Jerusa.mp4"
+                    src="/Jerusa.mp4"
                     type="video/mp4"
                   />
                   Seu navegador não suporta vídeos.

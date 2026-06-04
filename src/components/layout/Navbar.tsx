@@ -36,7 +36,7 @@ export default function Navbar() {
           <a href="#" className="flex items-center gap-3">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://019e64ef-0cb7-7e67-a915-216a90413591.mochausercontent.com/logo.png"
+              src="/logo.png"
               alt="Jerusa Frois"
               className="h-9 lg:h-10 w-auto"
             />

@@ -12,7 +12,7 @@ export default function AboutSection() {
             <div className="relative">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://019e64ef-0cb7-7e67-a915-216a90413591.mochausercontent.com/image.png_3920.png"
+                src="/jerusa2.jpg"
                 alt="Jerusa Frois - Psicóloga"
                 className="rounded-[2rem] w-full object-cover shadow-lg"
               />
