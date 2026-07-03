@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import WhatsAppConversionTracker from "@/components/ui/WhatsAppConversionTracker";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -27,6 +28,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <WhatsAppConversionTracker />
         <Script
           src="https://t.contentsquare.net/uxa/daea26f03398f.js"
           strategy="afterInteractive"
